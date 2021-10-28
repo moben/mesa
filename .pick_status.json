@@ -1,5 +1,482 @@
 [
     {
+        "sha": "cf76247f382a0b872e39135326111bd93f08c744",
+        "description": "drirc: enable do_dce_before_clip_cull_analysis for ANSA",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "95ded68984684c72a1f7313a9c0c699f62796c04",
+        "description": "glsl/drirc: add an option for gl_ClipVertex / gl_CullDistance checks",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c0fc76a17211891dba2ee408748f7515f1eb4e91",
+        "description": "docs: update calendar and link releases notes for 21.2.5",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c8bf9100cd3ed98bec579235e6253b9d8ba8847b",
+        "description": "docs: add sha256 sums for 21.2.5",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f07a61499526dfb628eb54a8bd2401247659c52d",
+        "description": "docs: add release notes for 21.2.5",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "021ec93273819bb6922df01beef51feb5abfb333",
+        "description": "r300: improve precission of linear interpolation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aa264ded948defc88930eea7d54800b3188a3ac0",
+        "description": "ir3/ra: Check register file upper bound when updating preferred_reg",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "0ffcb19b9d9fbe902224542047c389a661fbf816"
+    },
+    {
+        "sha": "4f4164d62a0b29c12d750d9467e73c31e7f678b8",
+        "description": "radeon/vce: Limiting max supported refernce frames to 1  for h264 encoding",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d8e45467076789aac6a83c3982dafcf386d56e72",
+        "description": "ac/nir: remove bogus assertion about the position for culling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d3b3daa06b7f3856f88f8c6275db30ee6cf7874a",
+        "description": "intel/pps: reuse timestamp_frequency from intel_device_info",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "43d5b55bc1691e9d3a4fdb24086fa3d626d4974c",
+        "description": "intel/pps: provide accurate min sampling period",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3dda80fcf62baa106f227392d45ea6853ef7d9e9",
+        "description": "intel/dev: printout timestamp period",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "127863ddd3e9aa43cea7c9de8c452460a0dcd5de",
+        "description": "docs: put a list of commands to setup perfetto",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bc0a702c52452add244521fca53ecc850ceb6938",
+        "description": "pps: add an intel config file",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "32b28f2cfa4501314aa74356adaef7173e203cd0",
+        "description": "pps: remove counter_ids fields",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64157c706e78be0ea3bc002c07a15b002f1aa313",
+        "description": "intel/dev/test: Assert (verx10 / 10) == ver",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "11602d2d36d319c2f185979effa4ed3c3342678f",
+        "description": "aco: use std::vector and IDSet in RA validator",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b42f4b880915cf7c206bf7fce7558c6ac92e4f09",
+        "description": "broadcom/compiler: padding fixes to QPU assembly dumps",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3ad06b69490fa990c473e16f78ce658b0eb43b47",
+        "description": "zink: always use explicit lod for texture() when legal in non-fragment stages",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4d9fc17ae8c24a8f4e40a17600e8d4205c27b2bf",
+        "description": "zink: set aspectMask for renderpass2 VkAttachmentReference2 structs",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c4a513d978e6fb5344b465d981c70b1823906331",
+        "description": "zink: use align64 for allocation sizes",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2e9e113b7f57a45e6a10577af9f82c09efe6b05e",
+        "description": "zink: cache bo SpvId array types",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "65abd1d4aed48365f0054279616dc31a817b2be0",
+        "description": "venus: implement vn_buffer_cache_entries_create",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "af505ff3c8ce498998dc155271652ca6e77a63d0",
+        "description": "venus: implement vn_buffer_cache_get_memory_requirements",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a74f2495ca07bb536e8f1caaa8c2a4ed36c10d67",
+        "description": "venus: implement vn_buffer_get_max_buffer_size",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "13f2e50aee42ff20e4bcf7e40a4b6047d7394096",
+        "description": "venus: add buffer cache init and usage flows",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fc237f80c6142171df695ecbfc3c981262672997",
+        "description": "venus: add struct vn_image_memory_requirements",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b108e096d12f9baabcb730723003ff51a6dadfff",
+        "description": "venus: add struct vn_buffer_memory_requirements",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "927dea7c346b9717d1fe5fd113b46846b8369f7e",
+        "description": "venus: refactor the ahb buffer mem_type_bits query api",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34b7d820e2912c6b586f7ae670120eb18aeb45a5",
+        "description": "venus: refactor to add vn_buffer_init",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "df93a8a6dde0bbb903f14b4a6256445c771af54f",
+        "description": "venus: refactor to add vn_device_init",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2a79dfb724ab939eb73c255cfa9dc743c34d21ab",
+        "description": "venus: release queues on device creation failure",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2de6beaa12f9b855d31c3c11a8a6cea51a14d6b1",
+        "description": "zink: add better handling for CUBE_COMPATIBLE bit",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "71494c4874c6d8eba93309faeed01e1444eb49b5"
+    },
+    {
+        "sha": "5a2513a5158dc07f21706a7083a493dcd6755a36",
+        "description": "venus: assign valid memoryTypeIndex of exportable ahb memory for image",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2c43fd4c41f32479441a5845b46f844e66aeb3cc",
+        "description": "amd/rgp: Use VGH clocks for RGP workaround.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bfbc41a9fa8aeeae7d5a441940538a5a7bb9f027",
+        "description": "ci/piglit-runner: Merge piglit-driver-*.txt files into driver-*.txt.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "38dff02bfb1f237ded1e2075e560ec06b52fadcf",
+        "description": "ci/deqp-runner: Rename the deqp-drivername-*.txt files to drivername-*.txt",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3c49916d515c62ac039644e8a0934e534f37be0b",
+        "description": "iris: destroy our mutexes a little later",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e68616e5e651fb721ffdcdd167712689f183002e",
+        "description": "docs: update calendar for 21.3.0-rc3",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9fa702f28ca030950cd8d79c2cf071eb63003741",
+        "description": "venus: refactor private descriptor_set helpers to be private",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "565d65baafc218209c09e04ff8b25e1518854bca",
+        "description": "anv: Enable CCS for storage image formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64ea7e5e338750c8e7c33ddcd969b60af1645ada",
+        "description": "anv: Pass correct aux usage while filling out surface state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f79a25653b9b18617d6a317bc8bd94973a2a0674",
+        "description": "zink: move all shader bo/sharedmem access to compiler passes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c18413b877cdf47904ef398071827767afa0b99a",
+        "description": "zink: add more glsl base types to get_glsl_basetype()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6be3c0f82d7cd988d6737e078d4ee8e60dc66eae",
+        "description": "zink: move all 64-32bit shader store rewriting to nir pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8a98e6fb97cb264e822d1b1b3ba6c333fb727a81",
+        "description": "zink: move shared intrinsic offset adjustments to compiler passes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6d31f4b7b0776e3f97b88007853ae0eb36233933",
+        "description": "zink: move ssbo store offset adjustment to compiler passes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "150d6ee97e374b5f520fc1ec3817a8a09c4b80fc",
+        "description": "zink: move all 64-32bit shader load rewriting to nir pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3a1ecd1e8ccfb73d76d5c20bbce9ee3e1d3ffcea",
+        "description": "zink: run lower_io_to_scalar before rewriting bo access",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ee22cd619fb164fb6b0c53d6915e6901b52b97fa",
+        "description": "zink: move bo load offset adjustment to compiler passes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "14f7eb9d4c0b2727c7e14027d82f86cf41cecc62",
+        "description": "zink: run optimize_nir() only once during compile",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "16f838576cf29e26f1af198ac93a0fb3a3cfad8f",
+        "description": "nir/lower_io_to_scalar: add support for bo and shared io",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "60cb47180561250939e37f0c1d0fdc6a981608f3",
+        "description": "ci/radeonsi: Use a deqp-runner suite suite for stoney.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "4856586ac605e89ee6c128b1a190f000311b49ba",
         "description": "util: use anonymous file for memory fd creation",
         "nominated": true,
