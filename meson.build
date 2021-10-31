@@ -197,7 +197,8 @@ with_dri_nouveau = dri_drivers.contains('nouveau')
 
 with_dri = dri_drivers.length() != 0
 
-gallium_drivers = get_option('gallium-drivers')
+gallium_drivers_option = get_option('gallium-drivers')
+gallium_drivers = gallium_drivers_option
 if gallium_drivers.contains('auto')
   if system_has_kms_drm
     # TODO: PPC, Sparc
@@ -226,6 +227,12 @@ if gallium_drivers.contains('auto')
           host_machine.system()))
   endif
 endif
+foreach driver : gallium_drivers_option
+  if driver != 'auto' and not gallium_drivers.contains(driver)
+    gallium_drivers += driver
+  endif
+endforeach
+
 with_gallium_radeonsi = gallium_drivers.contains('radeonsi')
 with_gallium_r300 = gallium_drivers.contains('r300')
 with_gallium_r600 = gallium_drivers.contains('r600')
